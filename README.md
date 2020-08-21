@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+# Spark GDELT Examples
+## Detecting Events and Entities of Interest about Trend in OIL Price
 
-You can use the [editor on GitHub](https://github.com/lamastex/spark-gdelt-examples/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![oiltrendsevents](notebooks/db/images/oiltrendsevents.png)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+Johannes Graner, Albert Nilsson and Raazesh Sainudiin
 
-# Header 1
-## Header 2
-### Header 3
+2020, Uppsala, Sweden
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+This project was supported by Combient Mix AB through summer internships at:
 
-**Bold** and _Italic_ and `Code` text
+Combient Competence Centre for Data Engineering Sciences, 
+Department of Mathematics, 
+Uppsala University, Uppsala, Sweden
 
-[Link](url) and ![Image](src)
-```
+See Example notebooks to detect events and persons or entities of interest
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- [notebooks/db/gdelt-EOI-detection](notebooks/db/gdelt-EOI-detection.md)
+- [notebooks/db/gdelt-POI-detection](notebooks/db/gdelt-POI-detection.md)
 
-### Jekyll Themes
+# Resources
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lamastex/spark-gdelt-examples/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This builds on the following libraries and its antecedents therein:
 
-### Support or Contact
+- [https://github.com/aamend/spark-gdelt](https://github.com/aamend/spark-gdelt)
+- [https://github.com/lamastex/spark-trend-calculus](https://github.com/lamastex/spark-trend-calculus)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+## This work was inspired by:
+
+- Antoine Aamennd's [texata-2017](https://github.com/aamend/texata-r2-2017)
+- Andrew Morgan's [Trend Calculus Library](https://github.com/ByteSumoLtd/TrendCalculus-lua)
+
+---
+---
+
+
+[edit on GitHub](https://github.com/lamastex/spark-gdelt-examples/edit/master/README.md)
