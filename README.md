@@ -19,6 +19,7 @@ Uppsala University, Uppsala, Sweden
 
 See Example notebooks to detect events and persons or entities of interest
 
+- [notebooks/ScaDaMaLe/000b-gdelt-utils](notebooks/ScaDaMaLe/000b_gdelt_utils.md)
 - [notebooks/db/gdelt-EOI-detection](notebooks/ScaDaMaLe/030a_gdelt_EOI_detection.md)
 - [notebooks/db/gdelt-POI-detection](notebooks/ScaDaMaLe/030b_gdelt_POI_detection.md)
 
